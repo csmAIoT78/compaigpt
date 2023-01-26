@@ -1,4 +1,9 @@
-node_modules/
-/test-results/
-/playwright-report/
-/playwright/.cache/
+node_modules
+npm-debug.log
+*.pem
+!mock-cert.pem
+.env
+coverage
+lib
+dist/
+.vercel
